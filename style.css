@@ -1,0 +1,150 @@
+:root{--paper:#faf8f4;--cream:#f2eee6;--ink:#302c29;--muted:#77716b;--terra:#aa6146;--gold:#c6ae6d;--line:#e5dfd6}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}img{max-width:100%;display:block}header{position:sticky;top:0;z-index:20;background:rgba(250,248,244,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{max-width:1190px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 28px;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-family:Georgia,serif;font-size:19px;white-space:nowrap}.brand img{width:48px;height:48px;object-fit:contain;border-radius:50%}.links{display:flex;align-items:center;gap:32px;font-size:12px;letter-spacing:.1em;text-transform:uppercase}.links a:hover,.textlink:hover{color:var(--terra)}.btn{display:inline-flex;justify-content:center;align-items:center;gap:12px;padding:15px 23px;border:1px solid var(--terra);background:var(--terra);color:white;font-size:12px;letter-spacing:.11em;text-transform:uppercase;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:#8f4e38}.btn.outline{background:transparent;color:var(--terra)}.btn.outline:hover{background:#f3e9e2}.menu{display:none;background:none;border:0;font-size:24px}.wrap{max-width:1190px;margin:auto;padding:0 28px}.hero{min-height:610px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:50px;padding-top:62px;padding-bottom:74px}.eyebrow{color:var(--terra);text-transform:uppercase;font-size:11px;letter-spacing:.24em;font-weight:bold}.hero h1,h2,.serif{font-family:Georgia,'Times New Roman',serif;font-weight:normal}.hero h1{font-size:clamp(46px,5.5vw,80px);line-height:1.08;letter-spacing:-.045em;margin:25px 0}.hero h1 em{font-weight:normal;color:var(--terra)}.lead{color:var(--muted);line-height:1.9;max-width:490px;font-size:15px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:31px}.hero-art{background:#eee8df;min-height:440px;display:grid;place-items:center;position:relative}.hero-art:after{content:'IDENTIDADE  ·  EXPRESSÃO  ·  PROPÓSITO';position:absolute;bottom:20px;font-size:9px;letter-spacing:.2em;color:#8c8071}.hero-art img{width:min(67%,300px);border-radius:50%;filter:drop-shadow(0 15px 25px #b6a99a55)}section{scroll-margin-top:95px}.section{padding:100px 0}.section.alt{background:var(--cream)}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:38px}.sectionhead h2{font-size:clamp(35px,4vw,57px);margin:12px 0 0;letter-spacing:-.035em}.sectionhead p{color:var(--muted);font-size:14px;line-height:1.8;max-width:330px}.projects{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}.project{position:relative;overflow:hidden;background:#e7e0d7;min-height:360px}.project:first-child{grid-row:span 2;min-height:760px}.project img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform .55s}.project:hover img{transform:scale(1.045)}.project:after{content:'';position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#191714a8)}.project-info{position:absolute;z-index:1;bottom:30px;left:30px;color:white}.project-info small{font-size:10px;letter-spacing:.19em;text-transform:uppercase}.project-info h3{font:normal 30px Georgia,serif;margin:10px 0}.project-info span{font-size:12px;text-decoration:underline;text-underline-offset:6px}.intro{max-width:700px;margin:0 0 32px;color:var(--muted);line-height:1.8}.collection{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.mug{display:block}.mug .photo{background:white;aspect-ratio:4/4.5;overflow:hidden}.mug img{width:100%;height:100%;object-fit:cover;transition:transform .35s,filter .35s}.mug:hover img{transform:scale(1.045) translateY(-3px)}.mug h3{font:normal 18px Georgia,serif;margin:15px 0 7px}.mug p{font-size:12px;color:var(--muted);margin:0}.center{text-align:center;margin-top:40px}.aboutgrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:center}.about-symbol{background:#eee7da;display:grid;place-items:center;min-height:370px}.about-symbol img{width:220px;border-radius:50%}.aboutgrid h2{font-size:50px;line-height:1.15}.aboutgrid p{line-height:1.9;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}.step{border-top:1px solid var(--gold);padding-top:25px}.step strong{font:normal 29px Georgia,serif;color:var(--terra)}.step h3{font:normal 22px Georgia,serif}.step p{font-size:13px;line-height:1.8;color:var(--muted)}.contact{background:#aa6146;color:#fff;text-align:center;padding:95px 24px}.contact h2{font-size:clamp(38px,5vw,65px);margin:20px auto;max-width:680px}.contact p{line-height:1.8;color:#f6e9e1}.contact .btn{background:#fff;color:var(--terra);border-color:#fff}footer{padding:30px 0;color:var(--muted);font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px}.detail{padding-top:70px;padding-bottom:100px}.detail h1{font:normal clamp(44px,6vw,80px) Georgia,serif;margin:12px 0}.detail p{max-width:720px;line-height:1.9;color:var(--muted)}.detail-gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:35px 0}.detail-gallery img{width:100%;height:450px;object-fit:cover;background:#e9e4dd}.detail-gallery img:first-child{grid-column:span 2;height:570px}.back{font-size:12px;color:var(--terra)}.filterbar{display:flex;gap:10px;flex-wrap:wrap;margin:25px 0}.filterbar button{border:1px solid var(--line);background:transparent;padding:10px 17px;color:var(--ink)}.filterbar button.active{background:var(--terra);border-color:var(--terra);color:white}.hide{display:none!important}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(max-width:850px){.hero{grid-template-columns:1fr;min-height:auto}.hero-art{min-height:300px}.projects{grid-template-columns:1fr 1fr}.project:first-child{grid-row:auto;min-height:360px}.collection{grid-template-columns:repeat(2,1fr)}.aboutgrid{gap:30px}.links{gap:15px}}@media(max-width:650px){.nav{padding:9px 18px}.brand{font-size:16px}.brand img{width:40px;height:40px}.menu{display:block}.links{display:none;position:absolute;top:59px;left:0;right:0;background:var(--paper);padding:22px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line)}.links.open{display:flex}.wrap{padding:0 20px}.hero{padding-top:45px;gap:35px}.hero-art{min-height:300px}.section{padding:70px 0}.sectionhead{display:block}.projects,.aboutgrid,.steps{grid-template-columns:1fr}.project,.project:first-child{min-height:390px}.collection{gap:12px}.mug h3{font-size:16px}.detail-gallery{grid-template-columns:1fr}.detail-gallery img,.detail-gallery img:first-child{grid-column:auto;height:auto;max-height:520px}.foot{display:block}.aboutgrid h2{font-size:38px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* MVP 1.1 — Hero fotográfico autoral e assinatura circular da marca */
+.hero-photo{min-height:min(790px,calc(100svh - 73px));position:relative;display:flex;align-items:center;isolation:isolate;padding:95px 0 115px;overflow:hidden;background:#a35d42;color:#fff}
+.hero-photo-bg{position:absolute;inset:0;z-index:-2;background-image:linear-gradient(90deg,rgba(53,27,20,.88) 0%,rgba(77,37,27,.76) 34%,rgba(104,49,33,.33) 64%,rgba(68,30,21,.08) 100%),url('assets/foto-autoral-hero.webp');background-size:cover;background-position:center 47%;transform:scale(1.005)}
+.hero-photo:after{content:'';position:absolute;inset:auto 0 0;height:100px;background:linear-gradient(transparent,rgba(47,23,16,.18));z-index:-1;pointer-events:none}
+.hero-inner{display:flex;align-items:flex-end;justify-content:space-between;width:100%;gap:48px}
+.hero-copy{max-width:760px}
+.hero-photo .eyebrow{color:#f3d8b4}
+.hero-photo h1{font-size:clamp(48px,6.5vw,92px);line-height:1.08;max-width:850px;text-wrap:balance;text-shadow:0 2px 18px rgba(33,17,13,.12)}
+.hero-photo h1 em{color:#f2d1b2;font-style:italic}
+.hero-photo .lead{color:#fff2e7;font-size:16px;max-width:510px;line-height:1.8}
+.hero-photo .btn{background:#f9f5ee;color:#753e2e;border-color:#f9f5ee}
+.hero-photo .btn:hover{background:#fff;color:#753e2e}
+.hero-photo .btn.outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.85)}
+.hero-photo .btn.outline:hover{background:rgba(255,255,255,.14)}
+.hero-signature{display:flex;flex-direction:column;align-items:center;gap:12px;flex:0 0 150px;margin-bottom:16px}
+.hero-signature img{width:150px;height:150px;object-fit:contain;border-radius:50%;filter:drop-shadow(0 8px 28px rgba(35,19,14,.24))}
+.hero-signature span{font-size:10px;letter-spacing:.19em;text-transform:uppercase;white-space:nowrap;color:#fff5e8}
+.hero-scroll{position:absolute;bottom:31px;left:max(28px,calc((100vw - 1134px)/2));font-size:10px;text-transform:uppercase;letter-spacing:.22em;color:#fff3e9;display:flex;align-items:center;gap:15px}
+.hero-scroll span{font-size:21px;line-height:1}
+.brand img{border-radius:50%;background:transparent}
+@media(max-width:850px){.hero-photo{min-height:690px}.hero-inner{align-items:center}.hero-signature{flex-basis:106px}.hero-signature img{width:106px;height:106px}.hero-photo h1{font-size:clamp(48px,7vw,75px)}}
+@media(max-width:650px){.hero-photo{min-height:calc(100svh - 60px);padding:90px 0 105px}.hero-photo-bg{background-image:linear-gradient(90deg,rgba(53,27,20,.84),rgba(75,35,25,.54)),url('assets/foto-autoral-hero.webp');background-position:57% center}.hero-inner{display:block}.hero-photo h1{font-size:clamp(44px,10vw,65px)}.hero-photo .lead{font-size:14px}.hero-signature{display:none}.hero-scroll{left:20px;bottom:27px}.hero-photo .actions{gap:10px}.hero-photo .btn{padding:13px 16px;font-size:10px}}
+
+/* MVP 1.2 — ajustes editoriais e comerciais baseados na documentação da cliente */
+.process-note{max-width:780px;margin:36px auto 0;text-align:center;font-size:13px;line-height:1.9;color:var(--muted)}.offer-paths{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:42px 0}.offer-paths>div{border:1px solid var(--line);padding:30px;background:#fff}.offer-paths h2{font-size:27px;margin:12px 0}.offer-paths p{line-height:1.8;color:var(--muted);font-size:14px}.textlink{color:var(--terra);font-size:13px;text-decoration:underline;text-underline-offset:5px}.about-story>.eyebrow{display:block;margin-top:45px}.story-lead{font-size:19px!important;max-width:820px!important;color:var(--ink)!important}.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;margin:55px 0}.story-grid h2,.story-cta h2{font-size:clamp(27px,3vw,43px)}.story-cta{background:var(--cream);padding:45px;margin-top:60px}.story-cta p{margin-bottom:28px}@media(max-width:650px){.offer-paths,.story-grid{grid-template-columns:1fr}.offer-paths>div{padding:22px}.story-grid{gap:15px}.story-cta{padding:26px}}
+
+/* MVP 1.4 — canais de contato */
+footer .wrap { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1.25rem; }
+.social-links { display:flex; align-items:center; gap:1.1rem; }
+.social-icon { display:inline-flex; align-items:center; justify-content:center; width:46px; height:46px; border-radius:50%; color:inherit; transition:transform .2s ease, background-color .2s ease; }
+.social-icon svg { width:27px; height:27px; }
+.social-icon:hover { transform:translateY(-3px); background:rgba(255,255,255,.12); }
+.social-icon:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
+@media (prefers-reduced-motion:reduce) { .social-icon { transition:none; } .social-icon:hover { transform:none; } }
+
+/* MVP 1.5 — curadoria: cada projeto tem uma imagem de capa, sem colagem concorrente */
+.projects-curated{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:start}
+.project-curated,.project-curated:first-child{position:static;display:block;min-height:0;grid-row:auto;background:transparent;overflow:visible}
+.project-curated:after{display:none}
+.project-visual{aspect-ratio:5/4;overflow:hidden;background:#e8e1d6}
+.project-curated .project-visual img{position:static;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.project-curated:hover .project-visual img,.project-curated:focus-visible .project-visual img{transform:scale(1.035)}
+.project-caption{display:flex;justify-content:space-between;gap:18px;align-items:center;padding:18px 1px 8px;color:var(--ink)}
+.project-caption small{color:var(--terra);font-size:10px;letter-spacing:.15em;text-transform:uppercase}
+.project-caption h3{font:normal clamp(21px,2.2vw,29px) Georgia,serif;margin:8px 0 0}
+.project-arrow{font-size:26px;color:var(--terra);transition:transform .2s}
+.project-curated:hover .project-arrow{transform:translate(3px,-3px)}
+.portfolio-note{font-size:12px;line-height:1.7;color:var(--muted);margin:25px 0 0}
+.detail-gallery-curated{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px;align-items:start}
+.detail-gallery-curated .project-figure{margin:0;background:var(--cream)}
+.detail-gallery-curated .project-figure:first-child{grid-column:1/-1}
+.detail-gallery-curated .project-figure img,.detail-gallery-curated .project-figure:first-child img{width:100%;height:auto;max-height:720px;object-fit:contain;position:static;background:#e9e4dd}
+.detail-gallery-curated .project-figure figcaption{padding:12px 16px;color:var(--muted);font-size:11px;letter-spacing:.09em;text-transform:uppercase}
+.detail-gallery-curated.single{display:block;max-width:820px}
+.detail-gallery-curated.single .project-figure:first-child{grid-column:auto}
+.project-source-note{font-size:12px;max-width:800px;margin:-10px 0 35px!important}
+@media(max-width:650px){.projects-curated,.detail-gallery-curated{grid-template-columns:1fr;gap:24px}.detail-gallery-curated .project-figure:first-child{grid-column:auto}.project-visual{aspect-ratio:5/4}}
+
+/* MVP 1.6 — uniformidade, hierarquia e acessibilidade */
+.projects-curated{align-items:stretch;grid-auto-flow:row}
+.project-curated{display:flex;flex-direction:column;min-width:0}
+.project-visual{aspect-ratio:5/4}
+.project-curated .project-caption{margin-top:auto;min-height:94px}
+.portfolio-title{font:normal clamp(38px,5vw,64px) Georgia,serif;margin:12px 0}
+.links .nav-cta{border:1px solid var(--terra);padding:12px 16px;color:var(--terra);letter-spacing:.07em;white-space:nowrap}
+.links .nav-cta:hover{background:var(--terra);color:#fff}
+.project-visual img{object-position:center}
+@media(max-width:650px){.project-curated .project-caption{min-height:0}.links .nav-cta{display:block;text-align:center}}
+
+
+/* MVP 1.7 — editorial portrait and a single consistent footer system */
+.about-intro{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(250px,.65fr);gap:clamp(32px,6vw,88px);align-items:center;margin-top:38px}
+.about-intro .eyebrow{display:block;margin-top:0}
+.about-intro h1{margin:16px 0 20px}
+.portrait-frame{margin:0;max-width:370px;justify-self:end;width:100%}
+.portrait-frame img{display:block;width:100%;height:auto;aspect-ratio:500/771;object-fit:cover;background:var(--cream)}
+.portrait-frame figcaption{font-size:11px;letter-spacing:.08em;color:var(--muted);margin-top:13px}
+.site-footer{background:#8b503b;color:#fff;padding:44px 0 38px}
+.site-footer .footer-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:28px 60px}
+.site-footer .footer-main{min-width:0}
+.site-footer .footer-name{font:normal 25px Georgia,serif;color:#fff}
+.site-footer .footer-main p{font-size:13px;line-height:1.65;color:#f4e5db;margin:12px 0 19px}
+.site-footer .footer-main small{display:block;font-size:11px;line-height:1.7;color:#f1ddd1}
+.site-footer .footer-contact{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.site-footer .footer-label{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:#f1ddd1}
+.site-footer .social-links{display:flex;gap:9px;align-items:center}
+.site-footer .social-icon{color:#fff;width:46px;height:46px}
+.site-footer .social-icon:hover{background:rgba(255,255,255,.14)}
+@media(max-width:700px){.about-intro{grid-template-columns:1fr}.portrait-frame{justify-self:start;max-width:310px}.site-footer .footer-inner{grid-template-columns:1fr;gap:28px}.site-footer .footer-contact{align-items:flex-start}.site-footer{padding:38px 0}}
+
+/* MVP 1.8 — refinamento editorial, sem alterar componentes aprovados */
+.studio-feature{background:#faf8f4}
+.studio-feature-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(36px,6vw,92px)}
+.studio-feature-image{margin:0;min-width:0}
+.studio-feature-image img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:#d4a68c}
+.studio-feature-image figcaption{margin-top:12px;font-size:11px;letter-spacing:.04em;color:var(--muted)}
+.studio-feature-copy h2{max-width:550px;text-wrap:balance}
+.studio-feature-copy p{max-width:510px;line-height:1.85;color:var(--muted)}
+.studio-feature-copy .btn{margin-top:12px}
+.site-footer .footer-main p{font-style:italic;letter-spacing:.015em}
+@media(max-width:760px){.studio-feature-grid{grid-template-columns:1fr;gap:28px}.studio-feature-image img{aspect-ratio:5/4}.studio-feature-copy{max-width:650px}}
+
+/* MVP 2.0: five balanced project cards, with a supplementary visual in Eduardo's card. */
+.projects-curated .project-wide{grid-column:1/-1}
+.project-wide .project-visual{aspect-ratio:2.4/1}
+.project-curated .project-visual{position:relative}
+.project-curated .project-inset{position:absolute;right:4%;bottom:5%;width:32%;aspect-ratio:4/3;overflow:hidden;border:3px solid rgba(250,248,244,.92);box-shadow:0 8px 24px #0003;background:#fff;pointer-events:none}
+.project-curated .project-inset img{width:100%;height:100%;object-fit:cover}
+.project-curated:hover .project-inset img{transform:none}
+@media(max-width:650px){.projects-curated .project-wide{grid-column:auto}.project-wide .project-visual{aspect-ratio:5/4}.project-curated .project-inset{width:35%;border-width:2px}}
+
+/* MVP 2.1 — curadoria de imagens e composição institucional */
+.project-curated .project-visual img[src$="eduardo-cartoes.webp"]{object-fit:contain;object-position:center;background:#e7e2d9}
+.contact{padding:0;text-align:left;background:#aa6146}
+.contact-editorial{max-width:1190px;margin:0 auto;display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);align-items:center;gap:clamp(30px,5vw,76px);padding:70px 28px}
+.contact-editorial-image{margin:0;min-width:0;overflow:hidden;background:#b87c64}
+.contact-editorial-image img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center;display:block}
+.contact-editorial-copy{min-width:0}
+.contact-editorial-copy h2{margin:20px 0;max-width:650px;font-size:clamp(36px,4vw,59px)}
+.contact-editorial-copy p{max-width:580px}
+.contact-editorial-copy .actions{justify-content:flex-start!important}
+.contact-editorial-copy .btn{font-size:11px}
+@media(max-width:760px){.contact-editorial{grid-template-columns:1fr;gap:27px;padding:55px 20px}.contact-editorial-image img{aspect-ratio:16/9}.contact-editorial-copy h2{font-size:clamp(35px,8vw,52px)}}
+@media(max-width:450px){.contact-editorial-copy .actions{flex-direction:column;align-items:stretch}.contact-editorial-copy .btn{text-align:center}}
+
+/* MVP 2.2: separação editorial discreta entre contato e rodapé */
+.site-footer{border-top:1px solid rgba(255,255,255,.22)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project-curated .project-visual img,.project-arrow,.social-icon{transition:none!important;transform:none!important}}
+
+/* Fotografia editorial das coleções: proporção preservada sem cortes. */
+.colecoes-editorial{margin:38px 0 52px}
+.colecoes-editorial img{display:block;width:100%;height:auto;aspect-ratio:1827 / 864;object-fit:contain;border-radius:8px}
+.colecoes-editorial figcaption{margin-top:10px;font-size:11px;letter-spacing:.06em;color:var(--muted)}
+@media(max-width:650px){.colecoes-editorial{margin:28px 0 38px}}
+
+/* CTA principal no encerramento das seções da landing page. */
+.section-cta{justify-content:center;margin-top:38px}
+@media(max-width:450px){.section-cta{flex-direction:column;align-items:stretch}.section-cta .btn{text-align:center}}
+
+/* Assinatura completa centralizada na área livre do hero. */
+.hero-signature{flex:1 1 220px;align-self:center;margin-bottom:0;gap:16px}
+.hero-signature img{width:180px;height:180px}
+.hero-signature span{font-size:12px}
+@media(min-width:851px){.hero-copy{flex:0 1 760px;min-width:0}}
+@media(min-width:651px) and (max-width:850px){.hero-signature{flex:1 0 150px}.hero-signature img{width:130px;height:130px}.hero-signature span{font-size:10px}}
+
+@media(min-width:851px){.hero-signature{transform:translateX(-50px)}}
